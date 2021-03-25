@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    font-size: 0.1px;
+  font-size: 0.1px;
 }
 .aaa {
   width: 500px;
@@ -22,8 +22,9 @@ h1 {
 }
 
 @media (max-width: 768px) {
-.aaa { text-align: center;
-}
+  .aaa {
+    text-align: center;
+  }
 }
 .centered-main-page-element {
   display: block;
