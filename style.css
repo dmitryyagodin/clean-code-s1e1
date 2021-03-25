@@ -4,6 +4,10 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
+h1 {
+    font-size: 0.1px;
+}
 .aaa {
   width: 500px;
   margin: 0 auto;
