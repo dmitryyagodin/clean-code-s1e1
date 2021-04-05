@@ -17,7 +17,7 @@ h1 {
 .header img {
   width: 100%;
 }
-.header .more-info {
+.header .info {
   font-family: fantasy, cursive;
 }
 
@@ -36,9 +36,12 @@ h1 {
   display: inline-block;
   flex-grow: 1;
 }
-.add-task-section {
+
+.add-task {
   display: flex;
+  margin: 20px 0;
 }
+
 ul {
   margin: 0;
   padding: 0px;
@@ -95,8 +98,8 @@ label[for="add-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#add-task {
-  width: 318px;
+input#new-task {
+  width: 400px;
 }
 p > button:hover {
   color: #0fc57c;
