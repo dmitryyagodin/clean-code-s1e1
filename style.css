@@ -17,7 +17,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .info {
+.header__link-info {
   font-family: fantasy, cursive;
 }
 
@@ -37,12 +37,12 @@ body {
   flex-grow: 1;
 }
 
-.add-task {
+.main__add-task {
   display: flex;
   margin: 20px 0;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
@@ -94,10 +94,10 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="add-task"] {
+/* label[for="add-task"] {
   display: block;
   margin: 0 0 20px;
-}
+} */
 #new-task {
   width: 400px;
 }
